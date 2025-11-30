@@ -1,0 +1,16 @@
+{
+    "name": "MGS.Machinery.Sample",
+    "rootNamespace": "",
+    "references": [
+        "MGS.Machinery"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
