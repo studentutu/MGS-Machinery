@@ -1,5 +1,5 @@
 ﻿/*************************************************************************
- *  Copyright © 2017-2018 Mogoson. All rights reserved.
+ *  Copyright © 2025 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  CrankSliderEditor.cs
  *  Description  :  Custom editor for CrankSlider.
@@ -18,7 +18,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace MGS.Machineries
+namespace MGS.Machineries.Editors
 {
     [CustomEditor(typeof(CrankSlider), true)]
     [CanEditMultipleObjects]
@@ -76,7 +76,8 @@ namespace MGS.Machineries
 
         protected void DrawSceneGUI()
         {
-            var rect = new Rect(Screen.width - 160, Screen.height - 95, 150, 45);
+            var sceneRect = SceneView.lastActiveSceneView.position;
+            var rect = new Rect(sceneRect.width - 152, sceneRect.height - 99, 150, 46);
             Handles.BeginGUI();
             GUILayout.BeginArea(rect, "Hinge Editor", "Window");
             DrawHingeEditorTool();

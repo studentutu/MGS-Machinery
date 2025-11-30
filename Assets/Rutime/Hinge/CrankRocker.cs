@@ -1,5 +1,5 @@
 ﻿/*************************************************************************
- *  Copyright © 2015-2018 Mogoson. All rights reserved.
+ *  Copyright © 2025 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  CrankRocker.cs
  *  Description  :  Define CrankRocker component.
@@ -10,7 +10,7 @@
  *  Description  :  Initial development version.
  *************************************************************************/
 
-using MGS.Mathematics;
+using MGS.Geometry;
 using UnityEngine;
 
 namespace MGS.Machineries
@@ -18,6 +18,7 @@ namespace MGS.Machineries
     /// <summary>
     /// Crank rocker hinge.
     /// </summary>
+    [AddComponentMenu("MGS/Machinery/CrankRocker")]
     [ExecuteInEditMode]
     public class CrankRocker : CrankLinkMechanism
     {
@@ -69,12 +70,12 @@ namespace MGS.Machineries
         /// <summary>
         /// Radius of the circle that bese link.
         /// </summary>
-        protected double linkRadius = 0;
+        protected float linkRadius = 0;
 
         /// <summary>
         /// Radius of the circle that bese rocker.
         /// </summary>
-        protected double rockerRadius = 0;
+        protected float rockerRadius = 0;
 
         /// <summary>
         /// Joint of link and rocker is on the top of rocker at start?
@@ -97,13 +98,13 @@ namespace MGS.Machineries
             var linkCircle = new Circle(CorrectPoint(GetLinkPosition()), linkRadius);
             var rockerCircle = new Circle(CorrectPoint(rocker.transform.localPosition), rockerRadius);
 
-            var vectors = Mathematics.GeometryUtility.GetIntersections(linkCircle, rockerCircle);
+            var vectors = Geometry.GeometryUtility.GetIntersections(linkCircle, rockerCircle);
             if (vectors == null)
             {
                 return false;
             }
 
-            var vector = Vector2D.Zero;
+            var vector = Vector2.zero;
             if (vectors.Count == 1)
             {
                 vector = vectors[0];
@@ -130,7 +131,7 @@ namespace MGS.Machineries
                 }
             }
 
-            joint.localPosition = new Vector3((float)vector.x, (float)vector.y);
+            joint.localPosition = new Vector3(vector.x, vector.y);
             link.Drive(0, DriveMode.Ignore);
             rocker.Drive(0, DriveMode.Ignore);
             return true;
@@ -153,8 +154,8 @@ namespace MGS.Machineries
             var rockerPoint = CorrectPoint(rocker.transform.localPosition);
             var lrJointPoint = CorrectPoint(joint.localPosition);
 
-            linkRadius = Vector2D.Distance(CorrectPoint(GetLinkPosition()), lrJointPoint);
-            rockerRadius = Vector2D.Distance(rockerPoint, lrJointPoint);
+            linkRadius = Vector2.Distance(CorrectPoint(GetLinkPosition()), lrJointPoint);
+            rockerRadius = Vector2.Distance(rockerPoint, lrJointPoint);
             isTop = lrJointPoint.y - rockerPoint.y >= 0;
         }
         #endregion

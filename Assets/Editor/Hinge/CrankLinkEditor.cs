@@ -1,5 +1,5 @@
 ﻿/*************************************************************************
- *  Copyright © 2017-2018 Mogoson. All rights reserved.
+ *  Copyright © 2025 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  CrankLinkEditor.cs
  *  Description  :  Custom editor for CrankLink.
@@ -19,7 +19,7 @@ using System.Reflection;
 using UnityEditor;
 using UnityEngine;
 
-namespace MGS.Machineries
+namespace MGS.Machineries.Editors
 {
     public class CrankLinkEditor : MechanismEditor
     {

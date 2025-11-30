@@ -1,5 +1,5 @@
 ﻿/*************************************************************************
- *  Copyright © 2017-2018 Mogoson. All rights reserved.
+ *  Copyright © 2025 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  LinearVibrator.cs
  *  Description  :  Define LinearVibrator component.
@@ -17,6 +17,7 @@ namespace MGS.Machineries
     /// <summary>
     /// Linear vibrator.
     /// </summary>
+    [AddComponentMenu("MGS/Machinery/LinearVibrator")]
     public class LinearVibrator : Mechanism
     {
         #region Field and Property

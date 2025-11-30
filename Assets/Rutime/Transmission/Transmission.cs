@@ -1,5 +1,5 @@
 ﻿/*************************************************************************
- *  Copyright © 2017-2018 Mogoson. All rights reserved.
+ *  Copyright © 2025 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  Transmission.cs
  *  Description  :  Define Transmission component.
@@ -18,6 +18,7 @@ namespace MGS.Machineries
     /// <summary>
     /// Transmission for mechanisms.
     /// </summary>
+    [AddComponentMenu("MGS/Machinery/Transmission")]
     public class Transmission : Mechanism
     {
         #region Field and Property

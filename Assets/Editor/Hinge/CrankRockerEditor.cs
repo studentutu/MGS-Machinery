@@ -1,5 +1,5 @@
 ﻿/*************************************************************************
- *  Copyright © 2017-2018 Mogoson. All rights reserved.
+ *  Copyright © 2025 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  CrankRockerEditor.cs
  *  Description  :  Custom editor for CrankRocker.
@@ -18,7 +18,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace MGS.Machineries
+namespace MGS.Machineries.Editors
 {
     [CustomEditor(typeof(CrankRocker), true)]
     [CanEditMultipleObjects]
@@ -73,7 +73,8 @@ namespace MGS.Machineries
 
         protected virtual void DrawSceneGUI()
         {
-            var rect = new Rect(Screen.width - 160, Screen.height - 120, 150, 70);
+            var sceneRect = SceneView.lastActiveSceneView.position;
+            var rect = new Rect(sceneRect.width - 152, sceneRect.height - 124, 150, 70);
             Handles.BeginGUI();
             GUILayout.BeginArea(rect, "Hinge Editor", "Window");
             DrawHingeEditorTool();

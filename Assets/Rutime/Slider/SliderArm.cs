@@ -1,5 +1,5 @@
 ﻿/*************************************************************************
- *  Copyright © 2015-2018 Mogoson. All rights reserved.
+ *  Copyright © 2025 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  SliderArm.cs
  *  Description  :  Define SliderArm component.
@@ -10,11 +10,14 @@
  *  Description  :  Initial development version.
  *************************************************************************/
 
+using UnityEngine;
+
 namespace MGS.Machineries
 {
     /// <summary>
     /// Arm with sequence slider joints.
     /// </summary>
+    [AddComponentMenu("MGS/Machinery/SliderArm")]
     public class SliderArm : SliderArmMechanism
     {
         #region Field and Property

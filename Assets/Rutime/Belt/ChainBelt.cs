@@ -1,5 +1,5 @@
 ﻿/*************************************************************************
- *  Copyright © 2022 Mogoson. All rights reserved.
+ *  Copyright © 2025 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  ChainBelt.cs
  *  Description  :  Chain belt of MonoCurveChain.
@@ -18,6 +18,7 @@ namespace MGS.Machineries
     /// <summary>
     /// Chain belt of MonoCurveChain.
     /// </summary>
+    [AddComponentMenu("MGS/Machinery/ChainBelt")]
     [RequireComponent(typeof(MonoCurveChain))]
     public class ChainBelt : EngageMechanism
     {

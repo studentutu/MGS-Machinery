@@ -1,5 +1,5 @@
 /*************************************************************************
- *  Copyright © 2022 Mogoson. All rights reserved.
+ *  Copyright © 2025 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  Machinery.cs
  *  Description  :  Null.
@@ -18,6 +18,7 @@ namespace MGS.Machineries
     /// <summary>
     /// Machinery.
     /// </summary>
+    [AddComponentMenu("MGS/Machinery/Machinery")]
     public class Machinery : MonoBehaviour, IMachinery
     {
         /// <summary>

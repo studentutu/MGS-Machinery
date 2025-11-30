@@ -1,5 +1,5 @@
 ﻿/*************************************************************************
- *  Copyright © 2015-2018 Mogoson. All rights reserved.
+ *  Copyright © 2025 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  FreeCrank.cs
  *  Description  :  Define free crank component.
@@ -17,6 +17,7 @@ namespace MGS.Machineries
     /// <summary>
     /// Crank free rotate around the axis Z.
     /// </summary>
+    [AddComponentMenu("MGS/Machinery/FreeCrank")]
     public class FreeCrank : CrankMechanism
     {
         #region Protected Method

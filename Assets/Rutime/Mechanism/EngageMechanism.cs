@@ -1,5 +1,5 @@
 ﻿/*************************************************************************
- *  Copyright © 2022 Mogoson. All rights reserved.
+ *  Copyright © 2025 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  ChainBelt.cs
  *  Description  :  Define EngageMechanism component.

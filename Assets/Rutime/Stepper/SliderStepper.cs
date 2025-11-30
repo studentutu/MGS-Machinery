@@ -1,5 +1,5 @@
 ﻿/*************************************************************************
- *  Copyright © 2022 Mogoson. All rights reserved.
+ *  Copyright © 2025 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  Slider.cs
  *  Description  :  Define SliderStepper component.
@@ -10,11 +10,14 @@
  *  Description  :  Initial development version.
  *************************************************************************/
 
+using UnityEngine;
+
 namespace MGS.Machineries
 {
     /// <summary>
     /// Stepper motor for SliderMechanism.
     /// </summary>
+    [AddComponentMenu("MGS/Machinery/SliderStepper")]
     public class SliderStepper : Stepper
     {
         /// <summary>

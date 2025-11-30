@@ -1,5 +1,5 @@
 ﻿/*************************************************************************
- *  Copyright © 2015-2018 Mogoson. All rights reserved.
+ *  Copyright © 2025 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  LimitCrank.cs
  *  Description  :  Define LimitCrank component.
@@ -17,6 +17,7 @@ namespace MGS.Machineries
     /// <summary>
     /// Crank rotate around the axis Z in the limit range.
     /// </summary>
+    [AddComponentMenu("MGS/Machinery/LimitCrank")]
     public class LimitCrank : FreeCrank
     {
         #region Field and Property

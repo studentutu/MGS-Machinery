@@ -1,5 +1,5 @@
 ﻿/*************************************************************************
- *  Copyright © 2017-2018 Mogoson. All rights reserved.
+ *  Copyright © 2025 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  CentrifugalVibrator.cs
  *  Description  :  Define CentrifugalVibrator component.
@@ -17,6 +17,7 @@ namespace MGS.Machineries
     /// <summary>
     /// Centrifugal vibrator.
     /// </summary>
+    [AddComponentMenu("MGS/Machinery/CentrifugalVibrator")]
     public class CentrifugalVibrator : Mechanism
     {
         #region Field and Property

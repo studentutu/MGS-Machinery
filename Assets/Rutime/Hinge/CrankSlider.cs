@@ -1,5 +1,5 @@
 ﻿/*************************************************************************
- *  Copyright © 2015-2018 Mogoson. All rights reserved.
+ *  Copyright © 2025 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  CrankSlider.cs
  *  Description  :  Define CrankSlider component.
@@ -10,7 +10,7 @@
  *  Description  :  Initial development version.
  *************************************************************************/
 
-using MGS.Mathematics;
+using MGS.Geometry;
 using UnityEngine;
 
 namespace MGS.Machineries
@@ -18,6 +18,7 @@ namespace MGS.Machineries
     /// <summary>
     /// Crank slider hinge.
     /// </summary>
+    [AddComponentMenu("MGS/Machinery/CrankSlider")]
     [ExecuteInEditMode]
     public class CrankSlider : CrankLinkMechanism
     {
@@ -36,7 +37,7 @@ namespace MGS.Machineries
         /// <summary>
         /// Radius of the circle that base link.
         /// </summary>
-		protected double linkRadius = 0;
+		protected float linkRadius = 0;
 
         /// <summary>
         /// Slider is on the right of link at start.
@@ -60,13 +61,13 @@ namespace MGS.Machineries
             var slideLine = Line.FromPoints(CorrectPoint(slider.localPosition),
                 CorrectPoint(slider.localPosition + transform.InverseTransformDirection(ProjectDirection(slider.forward))));
 
-            var vectors = Mathematics.GeometryUtility.GetIntersections(linkCircle, slideLine);
+            var vectors = Geometry.GeometryUtility.GetIntersections(linkCircle, slideLine);
             if (vectors == null)
             {
                 return false;
             }
 
-            var vector = Vector2D.Zero;
+            var vector = Vector2.zero;
             if (vectors.Count == 1)
             {
                 vector = vectors[0];
@@ -123,7 +124,7 @@ namespace MGS.Machineries
             var lsJointPoint = CorrectPoint(slider.localPosition);
             var linkPoint = CorrectPoint(GetLinkPosition());
 
-            linkRadius = Vector2D.Distance(linkPoint, lsJointPoint);
+            linkRadius = Vector2.Distance(linkPoint, lsJointPoint);
             isRight = lsJointPoint.x - linkPoint.x >= 0;
         }
         #endregion

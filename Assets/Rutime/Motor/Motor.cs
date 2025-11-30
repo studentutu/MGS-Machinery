@@ -1,5 +1,5 @@
 ﻿/*************************************************************************
- *  Copyright © 2017-2018 Mogoson. All rights reserved.
+ *  Copyright © 2025 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  Motor.cs
  *  Description  :  Define motor component.
@@ -17,6 +17,7 @@ namespace MGS.Machineries
     /// <summary>
     /// Motor provide power to drive axle.
     /// </summary>
+    [AddComponentMenu("MGS/Machinery/Motor")]
     public class Motor : MonoBehaviour
     {
         #region Field and Property

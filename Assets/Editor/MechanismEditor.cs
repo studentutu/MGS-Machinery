@@ -1,5 +1,5 @@
 ﻿/*************************************************************************
- *  Copyright © 2017-2018 Mogoson. All rights reserved.
+ *  Copyright © 2025 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  MechanismEditor.cs
  *  Description  :  Custom base editor for mechanism.
@@ -11,18 +11,16 @@
  *************************************************************************/
 
 using System.Collections.Generic;
-using MGS.Common.Editors;
+using MGS.Editors;
 using UnityEngine;
 
-namespace MGS.Machineries
+namespace MGS.Machineries.Editors
 {
     public partial class MechanismEditor : SceneEditor
     {
         protected readonly Color HandleColor = Color.white;
+        protected readonly Color AreaColor = new(1, 1, 1, 0.1f);
 
-        protected readonly Color AreaColor = new Color(1, 1, 1, 0.1f);
-
-        protected const float NodeSize = 0.125f;
         protected const float AreaRadius = 1.25f;
         protected const float ArrowLength = 2f;
         protected const float LineLength = 10;

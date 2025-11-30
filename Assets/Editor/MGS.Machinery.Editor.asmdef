@@ -2,11 +2,12 @@
     "name": "MGS.Machinery.Editor",
     "rootNamespace": "",
     "references": [
-        "MGS.Machinery",
-        "MGS.Common",
-        "MGS.Common.Editor"
+        "MGS.BaseEditor",
+        "MGS.Machinery"
     ],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,

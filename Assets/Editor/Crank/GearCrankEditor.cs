@@ -1,5 +1,5 @@
 ﻿/*************************************************************************
- *  Copyright © 2017-2018 Mogoson. All rights reserved.
+ *  Copyright © 2025 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  GearCrankEditor.cs
  *  Description  :  Custom editor for GearCrank.
@@ -13,7 +13,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace MGS.Machineries
+namespace MGS.Machineries.Editors
 {
     [CustomEditor(typeof(GearCrank), true)]
     [CanEditMultipleObjects]

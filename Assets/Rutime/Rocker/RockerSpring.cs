@@ -1,5 +1,5 @@
 ﻿/*************************************************************************
- *  Copyright © 2015-2018 Mogoson. All rights reserved.
+ *  Copyright © 2025 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  RockerSpring.cs
  *  Description  :  Define RockerSpring component.
@@ -18,6 +18,7 @@ namespace MGS.Machineries
     /// <summary>
     /// Rocker spring look at joint.
     /// </summary>
+    [AddComponentMenu("MGS/Machinery/RockerSpring")]
     public class RockerSpring : RockerJoint
     {
         #region Field and Property

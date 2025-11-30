@@ -1,16 +1,15 @@
 ﻿/*************************************************************************
- *  Copyright © 2020 Mogoson. All rights reserved.
+ *  Copyright © 2025 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  CrankLinkMechanism.cs
  *  Description  :  Crank mechanism with link joints.
  *------------------------------------------------------------------------
  *  Author       :  Mogoson
  *  Version      :  1.0
- *  Date         :  3/20/2020
+ *  Date         :  3/20/2025
  *  Description  :  Initial development version.
  *************************************************************************/
 
-using MGS.Mathematics;
 using UnityEngine;
 
 namespace MGS.Machineries
@@ -139,9 +138,9 @@ namespace MGS.Machineries
         /// </summary>
         /// <param name="position">Local position.</param>
         /// <returns>Correct point.</returns>
-        protected Vector2D CorrectPoint(Vector3 position)
+        protected Vector2 CorrectPoint(Vector3 position)
         {
-            return new Vector2D(position.x, position.y);
+            return new Vector2(position.x, position.y);
         }
 
         /// <summary>

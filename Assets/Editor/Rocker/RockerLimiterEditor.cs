@@ -1,5 +1,5 @@
 ﻿/*************************************************************************
- *  Copyright © 2017-2018 Mogoson. All rights reserved.
+ *  Copyright © 2025 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  RockerLimiterEditor.cs
  *  Description  :  Custom editor for RockerLock.
@@ -18,7 +18,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace MGS.Machineries
+namespace MGS.Machineries.Editors
 {
     [CustomEditor(typeof(RockerLimiter), true)]
     [CanEditMultipleObjects]
@@ -63,7 +63,8 @@ namespace MGS.Machineries
 
         protected void DrawSceneGUI()
         {
-            var rect = new Rect(Screen.width - 195, Screen.height - 115, 185, 65);
+            var sceneRect = SceneView.lastActiveSceneView.position;
+            var rect = new Rect(sceneRect.width - 187, sceneRect.height - 92, 185, 65);
             GUI.color = Color.white;
             Handles.BeginGUI();
             GUILayout.BeginArea(rect, "Stroke Editor", "Window");

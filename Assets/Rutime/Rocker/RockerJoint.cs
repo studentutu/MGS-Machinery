@@ -1,5 +1,5 @@
 ﻿/*************************************************************************
- *  Copyright © 2015-2018 Mogoson. All rights reserved.
+ *  Copyright © 2025 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  RockerJoint.cs
  *  Description  :  Define RockerJoint component.
@@ -17,6 +17,7 @@ namespace MGS.Machineries
     /// <summary>
     /// Rocker look at joint.
     /// </summary>
+    [AddComponentMenu("MGS/Machinery/RockerJoint")]
     [ExecuteInEditMode]
     public class RockerJoint : RockerMechanism
     {

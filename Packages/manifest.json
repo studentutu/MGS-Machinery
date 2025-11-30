@@ -1,9 +1,10 @@
 {
   "dependencies": {
+    "com.mgs.baseeditor": "https://github.com/mogoson/MGS.BaseEditor.git?path=/Assets",
     "com.mgs.chain": "https://github.com/mogoson/MGS.Chain.git?path=/Assets",
-    "com.mgs.common": "https://github.com/mogoson/MGS.Common.git?path=/Assets",
     "com.mgs.curve": "https://github.com/mogoson/MGS.Curve.git?path=/Assets",
-    "com.mgs.mathematics": "https://github.com/mogoson/MGS.Mathematics.git?path=/Assets",
+    "com.mgs.curvehose": "https://github.com/mogoson/MGS.CurveHose.git?path=/Assets",
+    "com.mgs.geometry": "https://github.com/mogoson/MGS.Geometry.git?path=/Assets",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.2d.tilemap": "1.0.0",
     "com.unity.ads": "4.4.2",

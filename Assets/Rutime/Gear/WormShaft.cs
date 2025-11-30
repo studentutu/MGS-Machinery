@@ -1,5 +1,5 @@
 ﻿/*************************************************************************
- *  Copyright © 2017-2018 Mogoson. All rights reserved.
+ *  Copyright © 2025 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  WormShaft.cs
  *  Description  :  Define WormShaft component.
@@ -18,6 +18,7 @@ namespace MGS.Machineries
     /// <summary>
     /// Worm shaft.
     /// </summary>
+    [AddComponentMenu("MGS/Machinery/WormShaft")]
     public class WormShaft : Axle
     {
         #region Field and Property

@@ -1,12 +1,12 @@
 ﻿/*************************************************************************
- *  Copyright © 2020 Mogoson. All rights reserved.
+ *  Copyright © 2025 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  DistanceLimiter.cs
  *  Description  :  Distance limiter.
  *------------------------------------------------------------------------
  *  Author       :  Mogoson
  *  Version      :  1.0
- *  Date         :  4/29/2020
+ *  Date         :  4/29/2025
  *  Description  :  Initial development version.
  *************************************************************************/
 
@@ -17,6 +17,7 @@ namespace MGS.Machineries
     /// <summary>
     /// Distance limiter.
     /// </summary>
+    [AddComponentMenu("MGS/Machinery/DistanceLimiter")]
     public class DistanceLimiter : Limiter
     {
         #region Field And Property

@@ -1,5 +1,5 @@
 ﻿/*************************************************************************
- *  Copyright © 2017-2018 Mogoson. All rights reserved.
+ *  Copyright © 2025 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  Belt.cs
  *  Description  :  Define Belt component.
@@ -17,6 +17,7 @@ namespace MGS.Machineries
     /// <summary>
     /// Belt with UV animation.
     /// </summary>
+    [AddComponentMenu("MGS/Machinery/Belt")]
     [RequireComponent(typeof(Renderer))]
     public class Belt : EngageMechanism
     {

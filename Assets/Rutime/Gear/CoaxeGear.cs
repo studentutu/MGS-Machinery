@@ -1,5 +1,5 @@
 ﻿/*************************************************************************
- *  Copyright © 2017-2018 Mogoson. All rights reserved.
+ *  Copyright © 2025 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  CoaxeGear.cs
  *  Description  :  Define CoaxeGear component.
@@ -17,6 +17,7 @@ namespace MGS.Machineries
     /// <summary>
     /// Coaxe gear with the same axis as another gear.
     /// </summary>
+    [AddComponentMenu("MGS/Machinery/CoaxeGear")]
     public class CoaxeGear : Gear
     {
         #region Protected Method

@@ -1,5 +1,5 @@
 ﻿/*************************************************************************
- *  Copyright © 2017-2018 Mogoson. All rights reserved.
+ *  Copyright © 2025 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  Differential.cs
  *  Description  :  Define Differential component.
@@ -17,6 +17,7 @@ namespace MGS.Machineries
     /// <summary>
     /// Ordinary differential.
     /// </summary>
+    [AddComponentMenu("MGS/Machinery/Differential")]
     public class Differential : Mechanism
     {
         #region Field and Property

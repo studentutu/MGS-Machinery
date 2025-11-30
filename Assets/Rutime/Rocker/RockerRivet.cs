@@ -1,5 +1,5 @@
 ﻿/*************************************************************************
- *  Copyright © 2016-2018 Mogoson. All rights reserved.
+ *  Copyright © 2025 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  RockerRivet.cs
  *  Description  :  Define RockerRivet component.
@@ -17,6 +17,7 @@ namespace MGS.Machineries
     /// <summary>
     /// Rocker keep same position with joint.
     /// </summary>
+    [AddComponentMenu("MGS/Machinery/RockerRivet")]
     [ExecuteInEditMode]
     public class RockerRivet : RockerMechanism
     {

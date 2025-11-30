@@ -1,5 +1,5 @@
 ﻿/*************************************************************************
- *  Copyright © 2017-2018 Mogoson. All rights reserved.
+ *  Copyright © 2025 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  Gear.cs
  *  Description  :  Define Gear component.
@@ -18,6 +18,7 @@ namespace MGS.Machineries
     /// <summary>
     /// Gear rotate around axis Z.
     /// </summary>
+    [AddComponentMenu("MGS/Machinery/Gear")]
     public class Gear : Axle, IEngageMechanism
     {
         #region Field and Property

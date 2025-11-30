@@ -1,5 +1,5 @@
 ﻿/*************************************************************************
- *  Copyright © 2017-2018 Mogoson. All rights reserved.
+ *  Copyright © 2025 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  Axle.cs
  *  Description  :  Define Axle component.
@@ -17,6 +17,7 @@ namespace MGS.Machineries
     /// <summary>
     /// Axle rotate around axis Z.
     /// </summary>
+    [AddComponentMenu("MGS/Machinery/Axle")]
     public class Axle : CoaxeMechanism
     {
         #region Field and Property

@@ -1,5 +1,5 @@
 ﻿/*************************************************************************
- *  Copyright © 2015-2018 Mogoson. All rights reserved.
+ *  Copyright © 2025 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  Slider.cs
  *  Description  :  Define Slider component.
@@ -17,6 +17,7 @@ namespace MGS.Machineries
     /// <summary>
     /// Slider joint move on the axis Z.
     /// </summary>
+    [AddComponentMenu("MGS/Machinery/Slider")]
     public class Slider : SliderMechanism
     {
         #region Field and Property

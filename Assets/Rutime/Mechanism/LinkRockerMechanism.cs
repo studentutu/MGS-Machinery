@@ -1,12 +1,12 @@
 ﻿/*************************************************************************
- *  Copyright © 2020 Mogoson. All rights reserved.
+ *  Copyright © 2025 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  LinkRockerMechanism.cs
  *  Description  :  Mechanism with link rockers.
  *------------------------------------------------------------------------
  *  Author       :  Mogoson
  *  Version      :  1.0
- *  Date         :  3/20/2020
+ *  Date         :  3/20/2025
  *  Description  :  Initial development version.
  *************************************************************************/
 

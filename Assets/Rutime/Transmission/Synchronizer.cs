@@ -1,5 +1,5 @@
 ﻿/*************************************************************************
- *  Copyright © 2017-2018 Mogoson. All rights reserved.
+ *  Copyright © 2025 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  Synchronizer.cs
  *  Description  :  Define Synchronizer component.
@@ -18,6 +18,7 @@ namespace MGS.Machineries
     /// <summary>
     /// Synchronizer for mechanisms.
     /// </summary>
+    [AddComponentMenu("MGS/Machinery/Synchronizer")]
     public class Synchronizer : Mechanism
     {
         #region Field and Property

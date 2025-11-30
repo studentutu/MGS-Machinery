@@ -1,5 +1,5 @@
 ﻿/*************************************************************************
- *  Copyright © 2016-2018 Mogoson. All rights reserved.
+ *  Copyright © 2025 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  RockerHinge.cs
  *  Description  :  Define RockerHinge component.
@@ -10,7 +10,7 @@
  *  Description  :  Initial development version.
  *************************************************************************/
 
-using MGS.Mathematics;
+using MGS.Geometry;
 using UnityEngine;
 
 namespace MGS.Machineries
@@ -18,6 +18,7 @@ namespace MGS.Machineries
     /// <summary>
     /// Hinge rotate around the axis base on rocker joint.
     /// </summary>
+    [AddComponentMenu("MGS/Machinery/RockerHinge")]
     [ExecuteInEditMode]
     public class RockerHinge : RockerMechanism
     {

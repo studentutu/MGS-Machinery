@@ -1,5 +1,5 @@
 ﻿/*************************************************************************
- *  Copyright © 2016-2018 Mogoson. All rights reserved.
+ *  Copyright © 2025 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  RockerLimiter.cs
  *  Description  :  Define RockerLimiter component.
@@ -17,6 +17,7 @@ namespace MGS.Machineries
     /// <summary>
     /// Limiter for RockerJoint.
     /// </summary>
+    [AddComponentMenu("MGS/Machinery/RockerLimiter")]
     [RequireComponent(typeof(RockerJoint))]
     [ExecuteInEditMode]
     public class RockerLimiter : Limiter

@@ -1,12 +1,12 @@
 ﻿/*************************************************************************
- *  Copyright © 2020 Mogoson. All rights reserved.
+ *  Copyright © 2025 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  ILimiter.cs
  *  Description  :  Interface for limiter.
  *------------------------------------------------------------------------
  *  Author       :  Mogoson
  *  Version      :  1.0
- *  Date         :  4/29/2020
+ *  Date         :  4/29/2025
  *  Description  :  Initial development version.
  *************************************************************************/
 

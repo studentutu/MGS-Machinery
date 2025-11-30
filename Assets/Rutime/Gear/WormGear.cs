@@ -1,5 +1,5 @@
 ﻿/*************************************************************************
- *  Copyright © 2017-2018 Mogoson. All rights reserved.
+ *  Copyright © 2025 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  WormGear.cs
  *  Description  :  Define WormGear component.
@@ -17,6 +17,7 @@ namespace MGS.Machineries
     /// <summary>
     /// Worm gear.
     /// </summary>
+    [AddComponentMenu("MGS/Machinery/WormGear")]
     public class WormGear : Gear
     {
         #region Field and Property

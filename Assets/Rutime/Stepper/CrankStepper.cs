@@ -1,5 +1,5 @@
 ﻿/*************************************************************************
- *  Copyright © 2022 Mogoson. All rights reserved.
+ *  Copyright © 2025 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  Slider.cs
  *  Description  :  Define CrankStepper component.
@@ -10,11 +10,14 @@
  *  Description  :  Initial development version.
  *************************************************************************/
 
+using UnityEngine;
+
 namespace MGS.Machineries
 {
     /// <summary>
     /// Stepper motor for CrankMechanism.
     /// </summary>
+    [AddComponentMenu("MGS/Machinery/CrankStepper")]
     public class CrankStepper : Stepper
     {
         /// <summary>
