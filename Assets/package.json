@@ -1,7 +1,24 @@
 {
-    "description": "Unity plugin for binding machinery joint in scene.",
-    "displayName": "Machinery",
     "name": "com.mgs.machinery",
+    "version": "1.0.0",
+    "displayName": "Machinery",
+    "description": "Unity plugin for binding machinery joint in scene.",
     "unity": "2021.3",
-    "version": "1.0.0"
+    "keywords": [
+        "machinery",
+        "binding",
+        "joint"
+    ],
+    "author": {
+        "name": "Mogoson",
+        "email": "mogoson@outlook.com",
+        "url": "https://github.com/mogoson"
+    },
+    "samples": [
+        {
+            "displayName": "Sample",
+            "description": "Sample for binding machinery joint.",
+            "path": "Samples~/Sample"
+        }
+    ]
 }

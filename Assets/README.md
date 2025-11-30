@@ -1,10 +1,13 @@
 [TOC]
+
 # MGS.Machinery
 
 ## Summary
+
 - Unity plugin for binding machinery joint in scene.
 
-## Demand
+## Ability
+
 - Binding complete construction machinery, example crane, road roller, loader, grader and excavator.
 - Binding rotate joints, example: upcar of crane, external gearing and inner gearing.
 - Binding slider joints, example: big arm and landing legs of crane, waist articulation of road roller.
@@ -20,45 +23,23 @@
 - Binding transmission.
 - Binding chain belt.
 
-## Environment
-- Unity 5.0 or above.
-- .Net Framework 3.0 or above.
+## Install
 
-## Platform
-- Windows
+- Unity --> Window --> Package Manager --> "+" --> Add package from git URL...
 
-## Version
-- 1.1.0
+  ```text
+  https://github.com/mogoson/MGS.BaseEditor.git?path=/Assets
+  https://github.com/mogoson/MGS.Curve.git?path=/Assets
+  https://github.com/mogoson/MGS.CurveHose.git?path=/Assets
+  https://github.com/mogoson/MGS.Chain.git?path=/Assets
+  https://github.com/mogoson/MGS.Geometry.git?path=/Assets
+  https://github.com/mogoson/MGS.Machinery.git?path=/Assets
+  ```
 
-## Achieve
-- Mechanism : Define abstract joint, hinge and mechanism.
-- FreeCrank : Free rotate around Z axis.
-- GearCrank : Free rotate around Z axis, can be drived by linear velocity.
-- LimitCrank : Rotate around Z axis in the angle range. 
-- CrankRocker : Crank rocker mechanism.
-- CrankSlider : Crank slider mechanism.
-- RockerHinge : Hinge of roker, rotate around the axis follow roker.
-- RockerJoint : Roker joint, always look at target joint.
-- RockerLimiter : Limiter of roker, limit the distance of a pair rokers.
-- RockerRivet : Rivet of roker, keep the same position(world space) as the target joint.
-- RockerSpring : Rocker spring look at joint.
-- Slider : Slider joint.
-- SliderArm : Sequence slider arm, drive from first joint to last joint.
-- Synchronizer : Synchronous mechanisms, drive multi mechanisms at the same time.
-- Transmission : Differential mechanisms, drive multi mechanisms by ratio velocity at the same time.
-- MechanismDriver : Universal mechanism driver.
-- Gear : Gear rotate around axis Z.
-- Axle : Axle rotate around axis Z.
-- CoaxialGear : Coaxial gear with the same axis as another gear.
-- WormGear : Worm gear mechanism.
-- WormShaft : Worm shaft mechanism.
-- Belt : Move texture UV on X axis.
-- LinearVibrator : Reciprocating motion on Z axis.
-- CentrifugalVibrator : Eccentric motion around Z axis.
-- Motor : Motor provide power to drive axle. 
-- Differential : Ordinary differential.
-- ChainBelt: Belt base curve chain.
+## Samples
+
+- Unity --> Window --> Package Manager --> Packages-Mogoson --> Machinery --> Samples.
 
 ------
 
-Copyright © 2022 Mogoson.	mogoson@outlook.com
+Copyright © 2025 Mogoson.	mogoson@outlook.com
